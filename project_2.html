@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar">
+                <div class="logo">
+                  <p>Library System</p>
+                </div>
+        
+                <div class="list">
+                  <ul class="list-items">
+                    <li><a href="#">Books</a></li>
+                    <li><a href="#">Register</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Logout</a></li>
+                  </ul>
+                </div>
+              </nav>
+        </header>
+        <br>
+        <table border="1" cellspacing="0" >
+            <thead>
+                <tr>
+                    <td colspan="5" align="left"><h1>Books</h1>
+                        <table border="1" cellspacing="0" >
+                            <tr>
+                                <!--row 1 col 1> -->
+                               <th>Book Id</th>
+                               <!--row 1 col 2> -->
+                               <th>Title</th>
+                               <!--row 1 col 3> -->
+                               <th>Author</th>
+                               <!--row 1 col 4> -->
+                               <th>Genre</th>
+                               <!--row 1 col 5> -->
+                               <th>Availability</th>
+                           </tr>
+                           <tr>
+                               <!-- row 2 col 1 -->
+                               <td>1</td>
+                               <!-- row 2 col 2 -->
+                               <td> 
+                                   <a href="https://www.amazon.com/Atomic-Habits-Proven-Build-Break/dp/0735211299">Atomic Habits</a>
+                                   <table border="1" cellspacing="0">
+                                       <tr>
+                                           <td>Publication Date: 2018</td>
+                                       </tr>
+                                       <tr>
+                                           <td>Page Count: 320</td>
+                                       </tr>
+                                       <tr>
+                                           <td>ISBN: 0735211299</td> 
+                                       </tr>
+                                   </table>
+                               </td>
+                               <!-- row 2 col 3 -->
+                               <td>James Clear</td>
+                               <!-- row 2 col 4 -->
+                               <td>Self-help book</td>
+                               <!-- row 2 col 5 -->
+                               <td>Available</td>
+                           </tr>
+                           <tr>
+                               <!-- row 3 col 1-->
+                               <td>2</td>
+                               <!-- row 3 col 2 -->
+                               <td>
+                                   <a href="https://www.amazon.in/Psychology-Money-Morgan-Housel/dp/9390166268">The Psychology of Money</a>
+                                   <table border="1" cellspacing="0">
+                                       <tr>
+                                           <td>Publication Date: 2020</td>
+                                       </tr>
+                                       <tr>
+                                           <td>Page Count: 252</td>
+                                       </tr>
+                                       <tr>
+                                           <td>ISBN: 9390166268</td> 
+                                       </tr>
+                                   </table>    
+                               </td>
+                               <!-- row 3 col 3 -->
+                               <td>Morgan Housel</td>
+                               <!-- row 3 col 4 -->
+                               <td>Study guide</td>
+                               <!-- row 3 col 5 -->
+                               <td>Available</td>
+                           </tr>
+                           <tr>
+                               <!-- row 4 col 1 -->
+                               <td>3</td>
+                               <!-- row 4 col 2 -->
+                               <td>
+                                   <a href="https://www.amazon.in/Subtle-Art-Not-Giving/dp/0062641549">The Subtle Art of Not Giving a F*ck</a>
+                                   <table border="1" cellspacing="0">
+                                       <tr>
+                                           <td>Publication Date: 2017</td>
+                                       </tr>
+                                       <tr>
+                                           <td>Page Count: 224</td>
+                                       </tr>
+                                       <tr>
+                                           <td>ISBN: 0062641549</td> 
+                                       </tr>
+                                   </table>    
+                               </td>
+                               <!-- row 4 col 3 -->
+                               <td> Mark Manson</td>
+                               <!-- row 4 col 4 -->
+                               <td>Self-help book</td>
+                               <!-- row 4 col 5 -->
+                               <td>Available</td>    
+                           </tr>
+                        </table>
+                    </td>        
+                </tr>
+            </tbody>
+        </table>
+        <br>
+
+        
+        <form action="">
+            <h1>Register</h1>
+            <div>
+                <label for="fname">First Name:</label><br>
+                <input type="text" required>
+            </div>
+            <div>
+                <label for="lname">Last Name:</label><br>
+                <input type="text" required>
+            </div>
+            <div>
+                <label for="email">Email:</label><br>
+                <input type="email" required>
+            </div>
+            <div>
+                <label for="extra-input">Date Of Birth:</label><br>
+                <input type="date" required>
+            </div>
+            <div>
+                <label for="age">Age:</label><br>
+                <input type="number" min="5" max="100" required>
+            </div>
+            <div>
+                <label for="password">Password:</label><br>
+                <input type="password" required>
+            </div>
+            <div>
+                <label for="password">Confirm Password:</label><br>
+                <input type="password" required>
+            </div>
+            <div>
+                <button type="submit" class="registerbtn"><a href="#"></a>Register</button>
+            </div>
+        </form>   
+    </body>
+</html>

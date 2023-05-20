@@ -1,0 +1,114 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    border: 1px solid rgb(201, 201, 201);
+    padding: 8px;
+  }
+  
+  th {
+    background-color: white;
+  }
+  
+  a {
+    color: blue;
+    text-decoration: underline;
+  }
+  
+  a:hover {
+    color: rgb(255, 191, 0);
+  }
+      
+  form {
+    width: 99%;
+    margin: 0;
+    padding: 5px;
+    border: 1px solid rgb(201, 201, 201);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 95%;
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+
+  input:focus {
+    background-color: rgb(189, 255, 233);
+    padding: 5px
+  }
+  
+  button {
+    background-color: #000;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 96%;
+  }
+
+  table {
+    width: 100%;
+    box-shadow: 0 0 10px 0 #ccc;
+  }
+  
+  form {
+    width: 99.2%;
+    box-shadow: 0 0 10px 0 #ccc;
+  }
+
+  header{
+    background-color: black;
+}
+.navbar{
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+color:white;
+margin-right: 20px;
+margin-left: 20px;
+}
+
+.list-items li{
+display: inline-block;
+margin-right: 10px;
+}
+
+li {
+list-style: none;
+}
+
+div ul li a:link{
+text-decoration: none;
+color:white;
+}
+
+header{
+    position: sticky;
+    top: 0%
+}
+
+body {
+    font-family: Roboto, sans-serif;
+  }
+  
+  h1 {
+    font-size: 2em;
+    font-weight: 700;
+  }
+  
+  p {
+    font-size: 1em;
+    line-height: 1.5;
+  }
+  
+  
+  
